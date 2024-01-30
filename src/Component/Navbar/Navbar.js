@@ -4,11 +4,9 @@ import { Link ,NavLink} from 'react-router-dom'
 function Navbar() {
     return (
         <div className='full'>
-            <div className="secondhalf">   <NavLink to='/'> <h4>Explore Cources</h4> </NavLink>    </div>
-            <div className="firsthalf">
-                <NavLink to='/dashboard'><h4>visit Dashboard</h4>
-                </NavLink>
-            </div>
+           
+            <NavLink to='/' ><button id='firstbutton'>Explore Courses</button></NavLink>
+            <NavLink to='/dashboard'><button id='seconde button'>Dashboard</button></NavLink>
         </div>
     )
 }

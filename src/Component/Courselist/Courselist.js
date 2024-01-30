@@ -9,7 +9,7 @@ function Courselist() {
   
     useEffect(() => {
       // Replace 'http://dummyapi.com/courses' with your API endpoint or file path
-      fetch('https://mocki.io/v1/6e795371-92d0-4591-a61f-73e652f4ee03')
+      fetch('https://mocki.io/v1/e0d07c5f-c428-41b9-bdbb-92d64a41412c')
         .then(response => response.json())
         .then(data => setCourses(data))
         .catch(error => console.error('Error fetching courses:', error));
@@ -37,13 +37,19 @@ function Courselist() {
               <Link to={`/course/${course.id}`}>
                 <div className='items'>
                     <img src={course.url} alt="" />
-                {course.name} - {course.instructor}
+                    <div className='textitems'>
+                      <p>     {course.name} by {course.instructor}   </p>
+                      <p><i class="fa-solid fa-thumbs-up fa-xs"> {course.likes}</i> </p>
+                      
+                    </div>
+                 
                 </div>
               </Link>
             
           ))}
        
         </div>
+        
       </div>
       </>
     );
