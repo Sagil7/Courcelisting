@@ -1,3 +1,18 @@
+## Installation
+1. Clone this repository
+```
+ git clone https://github.com/Sagil7/Courcelisting.git
+```
+
+2. Install Dependencies
+```
+npm install
+```
+
+3. Run application
+```
+ npm run
+```
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
