@@ -6,15 +6,19 @@ https://almenocourse.netlify.app/
 ## Installation
 1. Clone this repository
 ```
- git clone https://github.com/Sagil7/Courcelisting.git
+ git clone https://github.com/Sagil7/Courselisting.git
+```
+2. Change to Project Directory
+```
+cd Courselisting
 ```
 
-2. Install Dependencies
+3. Install Dependencies
 ```
 npm install
 ```
 
-3. Run application
+4. Run application
 ```
  npm run
 ```
