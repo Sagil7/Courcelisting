@@ -1,0 +1,26 @@
+.full{
+    display: flex;
+    border: 1px solid black;
+    color: white;
+    background-color: #EFECEC;
+}
+.firsthalf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+    width: 50%;
+}
+.secondhalf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.firsthalf:active,.firsthalf:hover,.firsthalf:focus{
+    background-color: #FC6736;
+}
+.secondhalf:active,.secondhalf:hover{
+    background-color: #FC6736;
+}

@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 800px;
+    margin: 150px auto;
+    height: 400px;   
+    overflow-y : scroll;
+}
+img{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+.search{
+    width: 100%;
+    background-color: rgb(240, 238, 238);
+    font-size: 28px;
+    height: 40px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.items{
+    border-bottom: 1px solid black;
+    font-size:  28px;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: auto 0px;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+
