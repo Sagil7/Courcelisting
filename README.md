@@ -20,7 +20,7 @@ npm install
 
 4. Run application
 ```
- npm run
+ npm start
 ```
 # Getting Started with Create React App
 
