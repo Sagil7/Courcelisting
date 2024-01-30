@@ -1,3 +1,8 @@
+## Copy live link
+```
+https://almenocourse.netlify.app/
+```
+
 ## Installation
 1. Clone this repository
 ```
